@@ -9,7 +9,7 @@ int min_element (int array[], int n)
 	{
 		if (array[i] < min)
 		{
-			min = array[i]
+			min = array[i];
 		}
 		i++;
 	}
