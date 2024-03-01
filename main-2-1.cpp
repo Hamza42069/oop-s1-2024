@@ -1,6 +1,6 @@
 #include <iostream>
 
-extern min_element(int array[], int n);
+extern int min_element(int array[], int n);
 
 int	main(void)
 {
