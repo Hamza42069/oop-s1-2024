@@ -1,6 +1,6 @@
 #include <iostream>
 
-extern int two_five_nine (int array[], int n);
+extern void two_five_nine (int array[], int n);
 
 int main (void)
 {
