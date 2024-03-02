@@ -1,7 +1,7 @@
 #include <iostream>
 #include <unordered_map>
 
-float weighted_average(int array[], int n) {
+double weighted_average(int array[], int n) {
     // Check if the size parameter is less than 1
     if (n < 1) {
         return 0;

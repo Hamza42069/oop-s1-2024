@@ -1,4 +1,6 @@
 
+#include <iostream>
+
 bool is_fanarray(int array[], int n) {
     // Check if the size parameter is less than 1
     if (n < 1) {
@@ -12,11 +14,10 @@ bool is_fanarray(int array[], int n) {
             return false;
         }
         // Check if the array is not in ascending order
-        if (array[i] != i + 1) {
+        if (array[i] != i + 1 && array[i] != n - i) {
             return false;
         }
     }
 
     return true;
 }
-
