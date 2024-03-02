@@ -1,6 +1,6 @@
 #include <iostream>
 
-extern bool is_fan_array(int array[], int n);
+extern bool is_fanarray(int array[], int n);
 
 int main() {
     int array1[] = {1, 2, 3, 2, 1};

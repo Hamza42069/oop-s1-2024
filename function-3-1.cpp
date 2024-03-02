@@ -1,6 +1,7 @@
 
 
-bool is_fan_array(int array[], int n) {
+bool is_fanarray(int array[], int n)
+{
     if (n < 1) {
         return false;
     }
