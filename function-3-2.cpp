@@ -1,7 +1,8 @@
 #include <iostream>
 #include <algorithm>
 
-float median(int array[], int n) {
+ int median_array(int array[], int n) 
+ {
     // Check if the size parameter is less than 1 or even
     if (n < 1 || n % 2 == 0) {
         return 0;

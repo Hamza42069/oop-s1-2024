@@ -1,6 +1,6 @@
 #include <iostream>
 
-extern int median_array(int array[], int n);
+extern  int median_array(int array[], int n);
 int main() {
     int arr1[] = {3, 5, 2, 1, 4};
     int arr2[] = {2, 4, 1, 6};
