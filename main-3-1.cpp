@@ -1,3 +1,7 @@
+#include <iostream>
+
+extern bool is_fan_array(int array[], int n);
+
 int main() {
     int array1[] = {1, 2, 3, 2, 1};
     int array2[] = {2, 4, 4, 2};

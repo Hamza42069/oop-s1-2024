@@ -1,5 +1,3 @@
-#include <iostream>
-#include <algorithm> // for std::sort
 
 double find_median(int array[], int n) {
     if (n <= 0 || n % 2 == 0) {

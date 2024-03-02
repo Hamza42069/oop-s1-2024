@@ -1,3 +1,6 @@
+#include <iostream>
+
+extern double find_median(int array[], int n);
 int main() {
     int array1[] = {3, 5, 2, 1, 4};
     int array2[] = {1, 2, 3, 4, 5};

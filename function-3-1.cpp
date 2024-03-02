@@ -1,4 +1,4 @@
-#include <iostream>
+
 
 bool is_fan_array(int array[], int n) {
     if (n < 1) {
